@@ -1,3 +1,3 @@
-# bi-level-optimization-of-cnn-on-fpga
-
-* Demonstration of Workflow
+### bi-level-optimization-of-cnn-on-fpga
+# Overview
+# Demonstration of Workflow
