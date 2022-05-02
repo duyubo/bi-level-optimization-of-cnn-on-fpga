@@ -1,5 +1,14 @@
 # Bi-level Optimization of cnn on fpga
 ## Overview
+### Optimizing Target:
+* mpn: maximum parameter number
+* model: fix architecture CNN
+* hyp: hypereparameter setting for model
+* map: Mapping strategy of systolic array e.g. array partition, latency hidening, simd, .etc
+
+![\max_{acc(model(hyp))}](https://latex.codecogs.com/svg.image?\max_{acc(model(hyp))}&space;&space;) subject to ![size(model(hyp)) \leq mpn](https://latex.codecogs.com/svg.image?size(model)&space;\leq&space;mpn)
+
+
 * User Input: 
 1. Parameter size constraint, e.g. 0.06MB
 2. Target device, e.g. xilinx_u200_xdma_201830_2
