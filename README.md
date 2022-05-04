@@ -1,9 +1,7 @@
 # Bi-level Optimization of cnn on fpga
 ## Overview:
 
-In this project, I plan to explore a unified mapping strategy and hyper-parameter setting for
-a specific multi-layer CNN architecture under specific hardware resource constraints to achieve a
-good balance of accuracy and latency.
+In this project, I plan to explore a unified mapping strategy and hyper-parameter setting for a specific multi-layer CNN architecture under specific hardware resource constraints to achieve a good balance of accuracy and latency.
 
 ### Hardware details: 
 The experiment is conducted without deploying on the FPGA board, thus any device with CPU or GPU and jupyter notebook can reproduce my experiment. Google Colab which is free and pre-installing all dependencies is highly recommended for reproducing the experiment. 
