@@ -1,28 +1,14 @@
 # Bi-level Optimization of cnn on fpga
-## Overview
-### Optimizing Target:
-* mpn: maximum parameter number
-* model: fix architecture CNN
-* hyp: hypereparameter setting for model
-* map: Mapping strategy of systolic array e.g. array partition, latency hidening, simd, .etc
 
-![\max_{acc(model(hyp))}](https://latex.codecogs.com/svg.image?\max_{acc(model(hyp))}&space;&space;) subject to ![size(model(hyp)) \leq mpn](https://latex.codecogs.com/svg.image?size(model)&space;\leq&space;mpn)
-
-
-* User Input: 
-1. Parameter size constraint, e.g. 0.06MB
-2. Target device, e.g. xilinx_u200_xdma_201830_2
-* Output:
-1. The hyperparameter setting for CNN under the parameter size constraint with highest test accuracy
-2. The HLS C code (systolic array)
-3. Bitstream for xilinx_u200_xdma_201830_2
-* Steps:
-1. Setup parameter budget
-2. Run search algorithm (Evolutinary algorithm or Exhaustive Search) for CNN architectures under the parameter size constraints
-3. Get the CNN architecture configuration with the best accuracy and parameter size < parameter budget
-4. Set up the configuration of CNN layers and linear layers in C
-5. Compile with AutoSA framework which will auatomatically optimize the mapping
-6. Build up the bitstream file on FPGA and test 
-
+* Hardware details: The experiment is conducted without deploying on the FPGA board, thus any device with CPU or GPU and jupyter notebook can reproduce my experiment. Google Colab which is free and pre-installing all dependencies is highly recommended for reproducing the experiment. 
+* Software dependencies: 
+Jupyter Notebook
+Python 3.6+ and pip3
+Pytorch + cuda11
+* Installation: 
+  pip3 install torch torchvision torchaudio 
+* Experiment workflow:
+  Sequentially click "run" button of each cell in the Jupyter Notebook File "EA\_Explore" will reproduce my experiment.
+* Evaluation and expected results: This step is expected to have similar plots as the experiment results of combined exploration.
 
 
