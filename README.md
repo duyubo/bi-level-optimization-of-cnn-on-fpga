@@ -19,5 +19,7 @@ The experiment is conducted without deploying on the FPGA board, thus any device
 ### Experiment workflow:
   Sequentially click "run" button of each cell in the Jupyter Notebook File "EA\_Explore" will reproduce my experiment.
 ### Evaluation and expected results: This step is expected to have similar plots as the experiment results of combined exploration.
-![results1](https://github.com/duyubo/bi-level-optimization-of-cnn-on-fpga/result1.JPG)
+![results1](https://github.com/duyubo/bi-level-optimization-of-cnn-on-fpga/blob/main/result1.JPG)
+![results2](https://github.com/duyubo/bi-level-optimization-of-cnn-on-fpga/blob/main/result2.JPG)
+![results3](https://github.com/duyubo/bi-level-optimization-of-cnn-on-fpga/blob/main/result3.JPG)
 
