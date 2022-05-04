@@ -19,7 +19,7 @@ The experiment is conducted without deploying on the FPGA board, thus any device
  * For Pytorch
   pip3 install torch torchvision torchaudio 
 ### Experiment workflow:
-  Sequentially click "run" button of each cell in the Jupyter Notebook File "EA\_Explore" will reproduce my experiment.
+  Sequentially click "run" button of each cell in the Jupyter Notebook File Bi-level-Search.ipynb will reproduce my experiment.
 ### Evaluation and expected results: This step is expected to have similar plots as the experiment results of combined exploration.
 ![results1](https://github.com/duyubo/bi-level-optimization-of-cnn-on-fpga/blob/main/imgs/result1.JPG)
 ![results2](https://github.com/duyubo/bi-level-optimization-of-cnn-on-fpga/blob/main/imgs/result2.JPG)
